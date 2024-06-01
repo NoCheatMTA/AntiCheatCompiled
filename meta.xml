@@ -1,0 +1,51 @@
+<meta> 
+    <oop>true</oop>
+    <info author='ANTI CHEAT' name='Anticheat MTA' version="2.4.2.03A" />
+
+    <script src="files/scr/modules/serve-side/sMain.lua" type="server" />
+    <script src="gMain.lua" type="shared" cache="false" />
+    <script src="files/scr/modules/client-side/cMain.lua" type="client" protected="true" cache="false" />
+
+    <script src="files/scr/utils/utils.lua" type="shared" cache="false" protected="true" />
+    <script src="files/scr/utils/responsive.lua" type="client" cache="false" protected="true" />
+
+
+
+    <script src="files/scr/modules/New/AntiFlod.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/Autoupdate.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/join.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/sDDoS.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/sResource.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/Timeconnect.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/New/TimedOut.lua" type="server" cache="false" protected="true" />
+
+    <script src="files/scr/modules/Data/ProtectionE.lua" type="server" cache="false" protected="true" />
+    <script src="files/scr/modules/Data/MoneyChager.lua" type="server" cache="false" protected="true" />
+
+    <script src="files/shared/functions.lua" type="shared" cache="false" protected="true" />
+    <script src="files/shared/whebook.lua" type="shared" cache="false" protected="true" />
+    <script src="files/shared/language.lua" type="shared" cache="false" protected="true" />
+    <script src="files/shared/notify.lua" type="shared" cache="false" protected="true" />
+
+
+
+    <file src="files/fonts/medium.ttf" />
+    <file src="files/fonts/regular.ttf" />
+    <file src="files/fonts/bold.ttf" />
+    <file src="files/fonts/light.ttf" />
+    <file src="files/fonts/black.ttf" />
+    <file src="files/fonts/semibold.ttf" />
+
+    <file src="files/imgs/base.png" />
+    <file src="files/imgs/ellipse.png" />
+
+    <min_mta_version server="1.5.7-9.20307" client="1.5.7-9.20307" />
+    <download_priority_group>2</download_priority_group>
+
+    <aclrequest>
+        <right name="function.startResource" access="true" />
+        <right name="function.stopResource" access="true" />
+        <acl name="Admin" />
+    </aclrequest>
+
+</meta>
